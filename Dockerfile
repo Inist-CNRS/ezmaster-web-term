@@ -28,7 +28,7 @@ RUN echo '{ \
   "httpPort": 80, \
   "configPath": "/etc/nginx/nginx.conf", \
   "configType": "text", \
-  "dataPath":   "/" \
+  "dataPath":   "/app" \
 }' > /etc/ezmaster.json
 
 EXPOSE 80
