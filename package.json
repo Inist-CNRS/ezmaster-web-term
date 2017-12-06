@@ -1,6 +1,6 @@
 {
   "name": "ezmaster-web-term",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web terminal used for debugging ezmaster stuff [ezmaster](https://github.com/Inist-CNRS/ezmaster)",
   "scripts": {
     "docker:web-server": "nginx -g 'daemon off;'",
