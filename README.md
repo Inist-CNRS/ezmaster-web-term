@@ -9,6 +9,21 @@ Web terminal used for debugging [ezmaster](https://github.com/Inist-CNRS/ezmaste
 - Add the application in your [ezmaster](https://github.com/Inist-CNRS/ezmaster) ([inistcnrs/ezmaster-web-term:1.0.2](https://hub.docker.com/r/inistcnrs/ezmaster-web-term/tags/)) then create a new instance
 - Open your browser, click on the instance web url and enjoy
 
+### Usage for ezmaster's mongodb cleanup
+
+```shell
+apt update
+apt install mongodb-clients
+mongo --host ezmaster
+
+> show databases
+...
+> use my-ezvis-1;
+> db.dropDatabase();
+```
+
+It could be usefull to cleanup old ezvis databases stored in the mongo ``ezmaster_db`` database.
+
 ## Developer
 
 To run stuff locally, just type:
