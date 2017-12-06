@@ -4,6 +4,8 @@
 
 Web terminal used for debugging [ezmaster](https://github.com/Inist-CNRS/ezmaster) stuff.
 
+![](https://camo.githubusercontent.com/2fc5855095b5f47da0875c9fd779ada2e39a6f81/687474703a2f2f692e696d6775722e636f6d2f336b4d4a6876632e706e67)
+
 ## Usage
 
 - Add the application in your [ezmaster](https://github.com/Inist-CNRS/ezmaster) ([inistcnrs/ezmaster-web-term:1.0.2](https://hub.docker.com/r/inistcnrs/ezmaster-web-term/tags/)) then create a new instance
