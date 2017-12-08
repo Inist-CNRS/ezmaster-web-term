@@ -16,7 +16,7 @@ Web terminal used for debugging [ezmaster](https://github.com/Inist-CNRS/ezmaste
 ```shell
 apt update
 apt install mongodb-clients
-mongo --host ezmaster
+mongo --host ezmaster_db
 
 > show databases
 ...
