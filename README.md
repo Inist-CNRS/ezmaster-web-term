@@ -13,6 +13,9 @@ Web terminal used for debugging [ezmaster](https://github.com/Inist-CNRS/ezmaste
 
 ### Usage for ezmaster's mongodb cleanup
 
+
+This use case is to cleanup old ezvis databases stored in the mongo ``ezmaster_db`` database :
+
 ```shell
 apt update
 apt install mongodb-clients
@@ -23,8 +26,6 @@ mongo --host ezmaster_db
 > use my-ezvis-1;
 > db.dropDatabase();
 ```
-
-It could be usefull to cleanup old ezvis databases stored in the mongo ``ezmaster_db`` database.
 
 ## Developer
 
