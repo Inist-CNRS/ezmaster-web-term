@@ -11,7 +11,10 @@ Warning: do not uses it for something else than debugging or cleaning things and
 ## Usage
 
 - Add the application in your [ezmaster](https://github.com/Inist-CNRS/ezmaster) ([inistcnrs/ezmaster-web-term:1.0.2](https://hub.docker.com/r/inistcnrs/ezmaster-web-term/tags/)) then create a new instance
-- Open your browser, click on the instance web url and enjoy
+- Create a new instance
+- Open the created instance ezmaster config and change the login/password at the end of the config (default is admin/ezmaster)
+- Open the instance web url and you will have a fullscreen terminal connected on the created instance shell
+- Thanks to this shell, you can then connect to the `ezmaster_db` database
 
 ### Usage for ezmaster's mongodb cleanup
 
