@@ -6,7 +6,7 @@ Web terminal used for debugging [ezmaster](https://github.com/Inist-CNRS/ezmaste
 
 Warning: do not uses it for something else than debugging or cleaning things and uses it at your own risk. Be aware that if ezmaster is configured with the ``EZMASTER_PUBLIC_DOMAIN`` enabled instances will be available on the Internet so **you NEED to setup a strong password**.  
 
-![](https://camo.githubusercontent.com/2fc5855095b5f47da0875c9fd779ada2e39a6f81/687474703a2f2f692e696d6775722e636f6d2f336b4d4a6876632e706e67)
+[![web-term](https://camo.githubusercontent.com/2fc5855095b5f47da0875c9fd779ada2e39a6f81/687474703a2f2f692e696d6775722e636f6d2f336b4d4a6876632e706e67)](https://github.com/IonicaBizau/web-term/)
 
 ## Usage
 
